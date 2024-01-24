@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+body {
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("./images/backgroundPic.jpg") center center no-repeat;
+    background-size: 200% auto;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.name-container, .quote, .tag, .imageBox{
+    background: rgba(39, 21, 38, 0.4);
+    border-radius: 10px;
+    height: 80px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-250%);
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+    font-weight: 100;
+    z-index: 100;
+}
+
+.quote {
+    transform: translateY(-200%);
+    width: max-content;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.quote p {
+    font-size: 1.5em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.tag {
+    transform: translateY(50%);
+    height: 30px;
+    width: 60%;
+    border-radius: 4px;
+}
+
+.tag h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.social{
+    transform: translateY(-20%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social div{
+    background: rgba(66, 6, 63, 0.4);
+    width: 230%;
+    transform: translateY(300%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 100;
+    transition: 0.1s ease-in-out;
+}
+.social div:hover{
+    
+    background: rgba(66, 6, 63, 0.8);
+}
+a:hover{
+    color: rgb(65, 65, 194);
+    
+}
+
+
+
+
